@@ -1,0 +1,572 @@
+body {
+  background: url(../images/bg-loop.jpg) repeat;
+  display: none;
+}
+#imageSlide {
+  width: 100%;
+}
+#footer {
+  overflow: hidden;
+  font-style: italic;
+  font-size: 11px;
+  border-top: #ccc  solid 1px;
+  background: url(../images/bgd-2.png) repeat-x;
+  height: 41px;
+}
+.header {
+  background: url(../images/bg-loop.jpg) repeat;
+}
+#main {
+  padding: 70px 10px 10px;
+  display: block;
+  overflow: hidden;
+}
+#main > h2 {
+  margin-top: -10px;
+  background: url(../images/bgd-1.png) repeat;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  color: #fff;
+}
+#main > h4 {
+  margin-top: -10px;
+  background: url(../images/bgd-1.png) repeat;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  color: #fff;
+}
+#main .photo > h2,
+#main .contact > h2 {
+  margin-top: -10px;
+  background: url(../images/bgd-1.png) repeat;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  color: #fff;
+}
+.large {
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+.large img {
+  width: 100%;
+  height: 100%;
+}
+.left {
+  border-bottom: solid 2px #ccc;
+}
+.left img {
+  float: left;
+  padding-right: 10px;
+}
+.left ul li {
+  list-style: none;
+}
+.left ul li.active {
+  padding-bottom: 3px;
+}
+.left ul li span {
+  line-height: 10px;
+  font-size: 11px;
+}
+.left ul li a {
+  font-size: 15px;
+}
+.left ul li a:hover {
+  text-decoration: none;
+}
+.content-contact {
+  overflow: hidden;
+}
+.content-contact ul {
+  overflow: hidden;
+  left: 0;
+  padding: 0;
+}
+.content-contact ul li {
+  list-style: none;
+  line-height: 20px;
+  color: #142f7c;
+  text-align: center;
+}
+.content-contact ul li span {
+  font-weight: bold;
+  font-size: 15px;
+}
+.content-contact p {
+  text-align: center;
+  padding-top: 20px;
+  color: #142f7c;
+}
+.control {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.wi-cont {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #467cfd;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#142f7c), to(#7c9bf3));
+  background-image: -webkit-linear-gradient(top, #142f7c, 0%, #7c9bf3, 100%);
+  background-image: -moz-linear-gradient(top, #142f7c 0%, #7c9bf3 100%);
+  background-image: linear-gradient(to bottom, #142f7c 0%, #7c9bf3 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff142f7c', endColorstr='#ff7c9bf3', GradientType=0);
+}
+.wi-cont > li {
+  padding: 10px 0 10px 0;
+  display: block;
+  overflow: hidden;
+  border-bottom: solid 1px #ccc;
+}
+.wi-cont > li ul {
+  display: block;
+  overflow: hidden;
+  width: 50%;
+  margin: 0 auto;
+  left: 0;
+  padding: 0;
+}
+.wi-cont > li ul > li {
+  float: left;
+  list-style: none;
+}
+.wi-cont > li ul > li img {
+  padding-right: 10px;
+}
+.wi-cont > li ul > li:last-child a {
+  color: #fff;
+}
+.photo ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.photo ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.photo ul li > div {
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.photo ul li > div img {
+  min-height: 70px;
+}
+.photo ul li label {
+  display: block;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.photo ul li span {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+}
+.menu {
+  border-bottom: solid 2px #ccc;
+}
+.title {
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 5px;
+}
+.form-menu,
+.form-total {
+  width: 100%;
+}
+.form-menu tr,
+.form-total tr {
+  width: 60%;
+}
+.form-menu tr td,
+.form-total tr td {
+  width: 40%;
+  text-align: center;
+  padding: 3px 0;
+}
+.form-menu tr td:last-child,
+.form-total tr td:last-child {
+  text-align: center;
+}
+.form-menu tr.second-menu,
+.form-total tr.second-menu {
+  font-weight: bold;
+  font-size: 14px;
+}
+.form-menu tr.second-menu td,
+.form-total tr.second-menu td {
+  border-bottom: solid 2px #ccc;
+}
+.form-total {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+}
+.list-product .col-xs-4,
+.content-product .col-xs-4 {
+  padding-left: 0;
+}
+.list-product .font-small,
+.content-product .font-small {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-product .font-small span,
+.content-product .font-small span {
+  display: block;
+}
+.list-product .font-small span.address,
+.content-product .font-small span.address {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-product .font-small span.titlepro,
+.content-product .font-small span.titlepro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-product .iconnew,
+.content-product .iconnew {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -10px;
+}
+.list-product .glyphicon-chevron-right,
+.content-product .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -6px;
+}
+.font-small {
+  font-size: 11px;
+}
+.font-small span strong {
+  font-size: 13px;
+}
+.resultcat > ul,
+.contentpro > ul {
+  overflow: hidden;
+}
+.resultcat > ul li,
+.contentpro > ul li {
+  padding: 10px 0;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#eceaea), to(#afaaaa));
+  background-image: -webkit-linear-gradient(top, #eceaea, 0%, #afaaaa, 100%);
+  background-image: -moz-linear-gradient(top, #eceaea 0%, #afaaaa 100%);
+  background-image: linear-gradient(to bottom, #eceaea 0%, #afaaaa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeceaea', endColorstr='#ffafaaaa', GradientType=0);
+}
+.resultcat > ul li .col-xs-4,
+.contentpro > ul li .col-xs-4 {
+  width: 100px;
+  height: 65px;
+  overflow: hidden;
+}
+.resultcat > ul li .col-xs-4 img,
+.contentpro > ul li .col-xs-4 img {
+  min-height: 70px;
+}
+.cat-wi-1 {
+  display: block;
+  padding: 7px 0;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#eceaea), to(#afaaaa));
+  background-image: -webkit-linear-gradient(top, #eceaea, 0%, #afaaaa, 100%);
+  background-image: -moz-linear-gradient(top, #eceaea 0%, #afaaaa 100%);
+  background-image: linear-gradient(to bottom, #eceaea 0%, #afaaaa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeceaea', endColorstr='#ffafaaaa', GradientType=0);
+}
+.ShowSearch ul {
+  overflow: hidden;
+}
+.ShowSearch ul li {
+  padding: 10px 0;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#eceaea), to(#afaaaa));
+  background-image: -webkit-linear-gradient(top, #eceaea, 0%, #afaaaa, 100%);
+  background-image: -moz-linear-gradient(top, #eceaea 0%, #afaaaa 100%);
+  background-image: linear-gradient(to bottom, #eceaea 0%, #afaaaa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeceaea', endColorstr='#ffafaaaa', GradientType=0);
+}
+.ShowSearch ul li .col-xs-4 {
+  width: 100px;
+  height: 65px;
+  overflow: hidden;
+}
+.ShowSearch ul li .col-xs-4 img {
+  min-height: 70px;
+}
+.ShowSearch ul .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -6px;
+}
+.desc {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.desc > span {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: solid 2px #ccc;
+  display: inline-block;
+}
+.desc > span label,
+.desc > span span {
+  color: #c1bfbf;
+  font-size: 11px;
+}
+.content-news .description img {
+  max-width: 100%;
+}
+.description {
+  margin-bottom: 10px;
+}
+.description img {
+  max-width: 100%;
+}
+.description div {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.container .row {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+.container .row .col-xs-4 img {
+  max-width: 80px;
+  min-height: 70px;
+}
+.cat-wi {
+  width: 100%;
+  overflow: hidden;
+}
+.cat-wi .cat-wi-1 {
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  padding-left: 7px;
+}
+.cat-wi .cat-wi-1 li {
+  list-style: none;
+  float: left;
+}
+.cat-wi .cat-wi-1 li:last-child {
+  float: right;
+  margin-right: 10px;
+}
+.newpro {
+  width: 100%;
+  overflow: hidden;
+}
+.newpro .newpro-result {
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  padding: 0;
+}
+.newpro .newpro-result li {
+  padding: 5px 0 5px 5px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  margin-bottom: 4px;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#eceaea), to(#807e7e));
+  background-image: -webkit-linear-gradient(top, #eceaea, 0%, #807e7e, 100%);
+  background-image: -moz-linear-gradient(top, #eceaea 0%, #807e7e 100%);
+  background-image: linear-gradient(to bottom, #eceaea 0%, #807e7e 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeceaea', endColorstr='#ff807e7e', GradientType=0);
+}
+.newpro .newpro-result li strong {
+  display: block;
+  padding: 0 0 3px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #467cfd;
+}
+.newpro .newpro-result li > span {
+  color: #5e5d5d;
+  padding-right: 10px;
+}
+.newpro .glyphicon-circle-arrow-right {
+  right: 10px;
+  top: 50%;
+  margin-top: -6px;
+  position: absolute;
+}
+#overlay {
+  background: #000000 url(../images/loading1.gif) no-repeat center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1031;
+  background-size: 20%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  display: none;
+}
+.footer-nav {
+  overflow: hidden;
+}
+.footer-nav ul {
+  overflow: hidden;
+  left: 0;
+  padding: 7px 10px 0 10px;
+}
+.footer-nav ul li {
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+}
+.footer-nav ul li:last-child {
+  float: right;
+  padding-right: 0;
+  padding-top: 5px;
+  color: #ccc;
+}
+.about {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.about ul {
+  overflow: hidden;
+  left: 0;
+  padding: 0;
+}
+.about ul li {
+  list-style: none;
+  float: left;
+}
+.about ul li:last-child {
+  float: right;
+  right: 0;
+  font-size: 7px;
+  line-height: 7px;
+  padding-top: 5px;
+}
+.about ul li:last-child > p {
+  text-align: center;
+}
+.about-1 {
+  overflow: hidden;
+}
+.about-1 h5 {
+  font-weight: bold;
+  text-align: center;
+  line-height: 17px;
+}
+.about-2 {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.about-2 ul {
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+.about-2 ul li {
+  list-style: none;
+}
+.about-2 ul li ul {
+  overflow: hidden;
+}
+.about-2 ul li ul li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+  left: 0;
+}
+.about-2 ul li ul li:last-child {
+  float: right;
+  padding-right: 0;
+}
+.about-3 {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+}
+.about-4 {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.about-4 table {
+  width: 100%;
+}
+.about-4 table tr {
+  text-align: center;
+  line-height: 20px;
+}
+.about-5 {
+  overflow: hidden;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+#map-canvas {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.view {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#content-marker {
+  font-family: Arial;
+}
+#content-marker h2 {
+  font-size: 1em;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #467cfd;
+}
